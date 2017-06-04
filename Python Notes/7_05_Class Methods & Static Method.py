@@ -2,9 +2,10 @@
 
 
 # Class Methods
-
-# Class Methods - Called by a class, which is passed to the 'cls' parameter of the method.
-# Objects Method - called by an instance of a class, which is passed tp the 'self' parameter of the method.
+'''
+    Class Methods  - Called by a class, which is passed to the 'cls' parameter of the method.
+    Objects Method - Called by an instance of a class, which is passed tp the 'self' parameter of the method.
+'''
 # Marked with a classmethod decorator.
 
 class Rectangle:

@@ -23,8 +23,10 @@ print('\n')
 
 
 # Properties can also be set by defining setter/getter functions.
-# setter - sets the corresponding property's value
-# getter - gets the value
+'''
+    setter - sets the corresponding property's value
+    getter - gets the value
+'''
 # Use a decorator of the same name as the property, followed by a dot and the setter/getter keyword.
 
 class Pie:

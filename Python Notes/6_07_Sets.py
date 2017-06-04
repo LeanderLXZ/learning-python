@@ -18,9 +18,11 @@ dict = {}
 # They cannot contain duplicate elements.
 
 # Method
-# add ---- add an element to a set.
-# remove ---- remove a specific element from a set.
-# pop ---- remove an arbitrary element from a set.
+'''
+    add    - add an element to a set.
+    remove - remove a specific element from a set.
+    pop    - remove an arbitrary element from a set.
+'''
 my_set.add("spam")
 num_set.remove(3)
 word_set_1.pop()
@@ -31,10 +33,13 @@ print(word_set_1)
 print('\n')
 
 # Sets can be combined using mathematical operations.
-# | ---- Union operator combines two sets from a new one containing items in either.
-# & ---- Intersection operator gets items only in both.
-# - ---- Difference operator gets items in the first set but not in the second.
-# ^ ---- Symmetric difference operator gets items in either set, but not both.
+'''
+    | - Union operator combines two sets from a new one containing items in either.
+    & - Intersection operator gets items only in both.
+    - - Difference operator gets items in the first set but not in the second.
+    ^ - Symmetric difference operator gets items in either set, but not both.
+'''
+
 first = {1, 2, 3, 4, 5, 6}
 second = {4, 5, 6, 7, 8, 9}
 

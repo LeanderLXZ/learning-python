@@ -2,10 +2,10 @@
 
 # Inheritance ---- provides a way to share functionality between classes.
 # To inherit a class from another class, put the superclass name in parentheses after the class name.
-
-# subclass ---- a class that inherits from another class.
-# superclass ---- a class that is inherited from.
-
+'''
+    subclass   - a class that inherits from another class.
+    superclass - a class that is inherited from.
+'''
 
 class Animal:
     def __init__(self, name, color):

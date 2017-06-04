@@ -1,11 +1,12 @@
 # Regular Expression Introduction
 
 # Regular expression can be accessed using the 're' module.
-
-# re.match : function - be use to determine whether it matches at the beginning of a string.
-#            If it does, it returns an object representing the match, if not, it returns None.
-# re.search : function - finds a match of pattern anywhere in the string.
-# re.findall : function - returns a list of all substring that match a pattern.
+'''
+    re.match   : function - be use to determine whether it matches at the beginning of a string.
+                 If it does, it returns an object representing the match, if not, it returns None.
+    re.search  : function - finds a match of pattern anywhere in the string.
+    re.findall : function - returns a list of all substring that match a pattern.
+'''
 
 # Use raw strings as r'expression' to avoid confusion.
 
@@ -33,11 +34,12 @@ print('\n')
 
 
 # method of match
-
-# group - returns the string matched
-# start - returns the start position of the first match
-# end - returns the end position of the first match
-# span - returns the start and end positions of the first match as a tuple
+'''
+    group - returns the string matched
+    start - returns the start position of the first match
+    end   - returns the end position of the first match
+    span  - returns the start and end positions of the first match as a tuple
+'''
 
 pattern = r'pam'
 

@@ -7,10 +7,11 @@ from itertools import accumulate, takewhile
 from itertools import product, permutations
 
 # Infinite iterators
-# count ---- counts up infinitely from a value.
-# cycle ---- infinitely iterates through an iterable (for instance a list or string).
-# repeat ---- repeats an object, either infinitely or a specific number of times.
-
+'''
+    count  - counts up infinitely from a value.
+    cycle  - infinitely iterates through an iterable (for instance a list or string).
+    repeat - repeats an object, either infinitely or a specific number of times.
+'''
 for i in count(3):
     print(i)
     if i >= 11:
@@ -19,9 +20,11 @@ print('\n')
 
 
 # Operate on iterables
-# takewhile ---- takes items from an iterable while a predicate function remains true.
-# chain ---- combines several iterables into a long one.
-# accumulate ---- returns a running total of values in an iterable.
+'''
+    takewhile  - takes items from an iterable while a predicate function remains true.
+    chain      - combines several iterables into a long one.
+    accumulate - returns a running total of values in an iterable.
+'''
 
 nums = list(accumulate(range(8)))
 print(nums)
@@ -29,7 +32,9 @@ print(list(takewhile(lambda x: x <= 6, nums)))
 print('\n')
 
 # Combinatoric functions
-# product, permutation ---- show all possible combinations of some items.
+'''
+    product, permutation - show all possible combinations of some items.
+'''
 
 letters = ("A", "B")
 print(list(product(letters, range(2))))

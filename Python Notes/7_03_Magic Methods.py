@@ -27,22 +27,24 @@ print('\n')
 
 
 # Magic Methods
-# __add__ : +
-# __sub__ : -
-# __mul__ : *
-# __truediv__ : /
-# __floordiv__ : //
-# __mod__ : %
-# __pow__ : **
-# __and__ : &
-# __xor__ : ^
-# __or__ : |
-# __lt__ : <
-# __le__ : <=
-# __eq__ : ==
-# __ne__ : !=
-# __gt__ : >
-# __ge__ : >=
+'''
+    __add__ : +
+    __sub__ : -
+    __mul__ : *
+    __truediv__ : /
+    __floordiv__ : //
+    __mod__ : %
+    __pow__ : **
+    __and__ : &
+    __xor__ : ^
+    __or__ : |
+    __lt__ : <
+    __le__ : <=
+    __eq__ : ==
+    __ne__ : !=
+    __gt__ : >
+    __ge__ : >=
+'''
 
 class SpecialString:
     def __init__(self, cont):
@@ -69,15 +71,17 @@ print('\n')
 
 
 # Magic Methods
-# __len__ : len()
-# __getitem__ : indexing
-# __setitem__ : assigning to indexed values
-# __delitem__ : deleting indexed values
-# __iter__ : iteration over objects (e.g., in for loops)
-# __contains__ : in
-# __call__ : calling objects as functions
-# __int__ : converting objects to int type
-# __str__ : converting objects to string type
+'''
+    __len__ : len()
+    __getitem__ : indexing
+    __setitem__ : assigning to indexed values
+    __delitem__ : deleting indexed values
+    __iter__ : iteration over objects (e.g., in for loops)
+    __contains__ : in
+    __call__ : calling objects as functions
+    __int__ : converting objects to int type
+    __str__ : converting objects to string type
+'''
 
 class VagueList:
     def __init__(self, cont):

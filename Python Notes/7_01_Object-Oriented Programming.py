@@ -1,8 +1,9 @@
 # Object-Oriented Programming
-
-# Class ---- describes what the object will be, but is separate from the object itself.
-#            You can use the same class as a blueprint for creating multiple different objects.
-# Method ---- functions in class.
+'''
+    Class  - describes what the object will be, but is separate from the object itself.
+             You can use the same class as a blueprint for creating multiple different objects.
+    Method - functions in class.
+'''
 class Cat:
     def __init__(self, color, legs):  # define a class named Cat, which has two attributes: color and legs
         self.color = color
