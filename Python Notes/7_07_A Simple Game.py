@@ -94,4 +94,14 @@ verb_dict = {'say': say, 'examine': examine, 'hit': hit, 'quit': quit, }
 while flag:
     get_input()
 
-
+# Inputs examples:
+# : say Hello!
+# : say Goodbye!
+# : examine goblin
+# : examine elf
+# : hit goblin
+# : examine goblin
+# : hit goblin
+# : examine goblin
+# : hit goblin
+# : examine goblin
